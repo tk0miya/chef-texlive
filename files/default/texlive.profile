@@ -1,0 +1,45 @@
+# texlive.profile written on Sun Jul  8 22:02:25 2012 UTC
+# It will NOT be updated and reflects only the
+# installation profile at installation time.
+selected_scheme scheme-custom
+TEXDIR /usr/local/texlive/2012
+TEXMFCONFIG ~/.texlive2012/texmf-config
+TEXMFHOME ~/texmf
+TEXMFLOCAL /usr/local/texlive/texmf-local
+TEXMFSYSCONFIG /usr/local/texlive/2012/texmf-config
+TEXMFSYSVAR /usr/local/texlive/2012/texmf-var
+TEXMFVAR ~/.texlive2012/texmf-var
+binary_x86_64-linux 1
+collection-basic 1
+collection-documentation-base 1
+collection-documentation-japanese 1
+collection-fontsrecommended 1
+collection-fontutils 1
+collection-genericrecommended 1
+collection-langcjk 1
+collection-langenglish 1
+collection-latex 1
+collection-latexrecommended 1
+collection-latexextra 1
+collection-mathextra 1
+collection-pictures 1
+collection-publishers 1
+collection-texinfo 1
+in_place 0
+option_adjustrepo 1
+option_autobackup 1
+option_backupdir tlpkg/backups
+option_desktop_integration 1
+option_doc 0
+option_file_assocs 1
+option_fmt 1
+option_letter 0
+option_path 1
+option_post_code 1
+option_src 1
+option_sys_bin /usr/local/bin
+option_sys_info /usr/local/info
+option_sys_man /usr/local/man
+option_w32_multi_user 0
+option_write18_restricted 1
+portable 0
