@@ -45,6 +45,7 @@ end
 script "install-texlive" do
   interpreter "bash"
   action :nothing
+  timeout node['texlive']['timeout'].to_i
   flags "-e"
   code <<-EOH
     mount -oloop=/dev/loop0 #{Chef::Config[:file_cache_path]}/texlive2012.iso /mnt

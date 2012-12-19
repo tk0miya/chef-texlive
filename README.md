@@ -15,10 +15,11 @@ This cookbook needs 4GB+ disk space to install TeXLive.
 Attributes
 ==========
 
-default['texlive']['dvd_url']
-
 * `node['texlive']['dvd_url']` - URL for TeXLive install DVD image
   Default settings are download it from ftp.jaist.ac.jp .
+
+* `node['texlive']['timeout']` - Timeout for TeXLive installer.
+  Default settings are 1800 (30min).
 
 Usage
 =====
