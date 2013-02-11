@@ -24,7 +24,7 @@ script "Downloading TeXLive install DVD" do
   not_if {::File.exists?("/usr/local/texlive/2012")}
   code <<-EOH
     require 'open-uri'
-    open("#{node[:texlive][:dvd_url]}", 'rb') do |input|
+    open("#{node["texlive"]["dvd_url"]}", 'rb') do |input|
       open("#{Chef::Config[:file_cache_path]}/texlive2012.iso", 'wb') do |output|
         while data = input.read(8192) do
           output.write(data)
